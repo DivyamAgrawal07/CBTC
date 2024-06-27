@@ -1,12 +1,12 @@
 
-import pandas as pd
+import pandas
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 
 # Load the dataset
-data = pd.read_csv('Iris Flower - Iris.csv')
+data = pandas.read_csv('Iris Flower - Iris.csv')
 
 # Display the first few rows of the dataset
 print("Dataset Preview:")
